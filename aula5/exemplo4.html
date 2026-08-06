@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body
+        {
+            background-color: snow;
+        }
+
+        h1
+        {
+            background-color: midnightblue;
+            color: cornflowerblue;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h3
+        {
+            color: midnightblue;
+        }
+
+        table, th, td
+        {
+            border: 1px solid midnightblue;
+            border-collapse: collapse;
+            padding: 5px;
+            color: midnightblue;
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+
+    <h1> Aula 05 - Exemplo 1</h1>
+
+    <h3>Exemplo de rowspan</h3>
+
+    <table>
+
+        <tr style="text-align: center;">
+            <th>Aula</th>
+            <th>Quarta-Feira</th>
+            <th>Quinta-Feira</th>
+            <th>Sexta-Feira</th>
+        </tr>
+
+        <tr style="text-align: center;">
+            <td>1ª Aula</td>
+            <td rowspan="2">P.A</td>
+            <td>Matemática</td>
+            <td>Química</td>
+        </tr>
+
+        <tr style="text-align: center;">
+            <td>2ª Aula</td>
+            <td>Português</td>
+            <td rowspan="2">Educação Física</td>
+        </tr>
+
+        <tr style="text-align: center;">
+            <td>3ª Aula</td>
+            <td>Artes</td>
+            <td rowspan="2">Interfaces Web</td>
+        </tr>
+
+        <tr style="text-align: center;">
+            <td>4ª Aula</td>
+            <td>Geografia</td>
+            <td>Biologia</td>
+        </tr>
+
+        <tr style="text-align: center;">
+            <td>5ª Aula</td>
+            <td rowspan="2">Inglês</td>
+            <td>Química</td>
+            <td rowspan="2">Banco de Dados</td>
+        </tr>
+
+        <tr style="text-align: center;">
+            <td>6ª Aula</td>
+            <td>Matemática</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
